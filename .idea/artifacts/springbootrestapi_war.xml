@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springbootrestapi:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>springbootrestapi</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="springbootrestapi.war">
+      <element id="artifact" artifact-name="springbootrestapi:war exploded" />
+    </root>
+  </artifact>
+</component>
